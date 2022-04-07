@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 150vh;
+}
+form{
+    display: grid;
+    grid-template-columns:auto;
+    margin-left: 10px;
+}
+input{
+    width: 20%;
+}
+.left {
+    margin-left: -130px;
+}
+#des{
+    height: 15vh;
+    width: 50%;
+}
+img{
+    width: 120px;
+    height: 15vh;
+}
+button{
+    width: 150px;
+    height: 4vh;
+    margin-left: 30px;
+}
+select {
+    width: 150px;
+    height: 4vh;
+}
+#siblingDesc {
+height: 10vh;
+width: 50%;
+}
