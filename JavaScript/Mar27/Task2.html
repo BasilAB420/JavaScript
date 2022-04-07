@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task #2</title>
+  <link rel="stylesheet" href="Task2.css">
+</head>
+
+<body>
+  <div class="main">
+    <form action="" onchange="checked()">
+      <input type="text" name="Subject" class="input" placeholder="Write about your subject" value="Website work to provide daily cars problems" />
+      <input type="text" name="Description" class="input" placeholder="Enter a discription" value='User can solve their "small" cars problems by themselves' />
+      <input type="text" name="User Types" class="input" placeholder="User Types" />
+      <label for="">Technology used</label>
+      <div class="lan">
+        <label for="HTML">HTML</label>
+        <input type="checkbox" name="HTML" id="HTML" class="input checkbox" checked />
+        <label for="css">CSS</label>
+        <input type="checkbox" name="CSS" id="CSS" class="input checkbox" checked />
+        <label for="JS">JS</label>
+        <input type="checkbox" name="JS" id="JS" class="input checkbox" checked />
+        <label for="PHP">PHP</label>
+        <input type="checkbox" name="PHP" id="PHP" class="input checkbox" />
+        <label for="C++">Bootstrap</label>
+        <input type="checkbox" name="Bootstrap" id="C++" class="input checkbox" />
+        <label for="C#">react js</label>
+        <input type="checkbox" name="react js" id="C#" class="input checkbox" />
+      </div>
+      <div class="file-input">
+        <input type="file" id="file" class="file img input">
+        <label for="file">
+          Image related to the topic
+          <p class="file-name"></p>
+        </label>
+      </div>
+      <input type="button" name="create" value="Create" />
+  </div>
+  </form>
+  <script src="Task2.js"></script>
+</body>
+
+</html>
